@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="about_title">18sp</dimen>
+    
+    <dimen name="overlay_title">15sp</dimen>
+    <dimen name="overlay_author">13sp</dimen>
+    <dimen name="overlay_rating_text">12sp</dimen>
+    <dimen name="overlay_price_old">16sp</dimen>
+    <dimen name="overlay_touch_for_more">9sp</dimen>
+    <dimen name="overlay_price_title">11.5sp</dimen>
+    <dimen name="overlay_price_value">16sp</dimen>
+    <dimen name="overlay_status">14sp</dimen>
+
+    <dimen name="menu_title">22sp</dimen>
+    <dimen name="menu_title_padding">14sp</dimen>
+    
+</resources>

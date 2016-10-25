@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\marti_000\Desktop\lol\RBCNextGreatInnovator\build\java\vuforia\Vuforia.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f5b9729417d9e86d9bba6068e4a84f05ace53fd4">
+        <dex dex="C:\Users\marti_000\Desktop\lol\RBCNextGreatInnovator\samples\temp\app\build\intermediates\pre-dexed\debug\Vuforia-abfb6aa4829aa9c8b343562f113947211ba82cf0.jar" />
+    </item>
+
+</items>

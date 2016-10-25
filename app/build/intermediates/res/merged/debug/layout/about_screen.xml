@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/about_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:text="INSIGHTS"
+        android:textColor="@color/black"
+        android:padding="@dimen/menu_title_padding"
+        android:textSize="@dimen/menu_title" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="@dimen/menu_title"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif"
+        android:text="The future of banking software" />
+
+    <ImageView android:layout_width="wrap_content"
+               android:layout_centerVertical="true"
+               android:layout_height="wrap_content"
+               android:scaleType="fitStart"
+               android:minHeight="400dp"
+               android:minWidth="400dp"
+               android:src="@drawable/logo" android:id="@+id/imageView"/>
+
+    <WebView
+        android:id="@+id/about_html_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/about_text_title"
+        android:layout_above="@id/button_start"
+        android:visibility="gone"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="INSIGHTS"
+        android:id="@+id/textView2" android:layout_above="@+id/imageView"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout><!-- From: file:/C:/Users/marti_000/Desktop/lol/RBCNextGreatInnovator/samples/temp/app/src/main/res/layout/about_screen.xml -->
